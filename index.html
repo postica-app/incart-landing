@@ -115,6 +115,8 @@
         font-weight: 700;
         cursor: pointer;
         z-index: 100;
+        white-space: nowrap;
+        animation: wiggle 1s ease-in-out infinite;
       }
 
       @keyframes wiggle {
@@ -128,10 +130,6 @@
         100% {
           transform: translateX(-49%);
         }
-      }
-
-      .floating {
-        animation: wiggle 1s ease-in-out infinite;
       }
 
       @media screen and (max-width: 1200px) {
@@ -171,7 +169,7 @@
     </style>
   </head>
   <body>
-    <a href="https://twitter.com/ryc0nt" target="_blank">
+    <a href="https://tally.so/r/3j651Q" target="_blank">
       <div class="floating">🔔 &nbsp;출시 알림 받기</div>
     </a>
     <section id="intro">
